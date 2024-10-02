@@ -1,0 +1,71 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: "none" 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.20
+  font_awesome_flutter: ^10.4.0
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.2.0
+  http: ^1.2.1
+  firebase_core: ^3.5.0
+  cloud_firestore: ^5.4.2
+  firebase_storage: ^12.3.1 
+  permission_handler: ^11.3.1
+  flutter_map: ^7.0.2
+  flutter_map_animations: ^0.7.1
+  latlong2: ^0.9.1
+  flutter_map_location_marker: ^9.1.0
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  contacts_service: ^0.6.2
+  shared_preferences: ^2.0.13
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/tai.png"
+  min_sdk_android: 23
+
+flutter:
+  assets:
+    - lib/assets/images/logo_smp.png
+    - lib/assets/images/google.png
+    - lib/assets/images/facebook.png
+    - lib/assets/images/sample_image.png
+    - lib/assets/images/sample_image2.png
+    - lib/assets/images/sample_image3.png
+    - lib/assets/images/logo.png
+    - lib/assets/images/profile.png
+    - lib/assets/images/wa.png
+    - lib/assets/images/foto1.png
+    - lib/assets/images/foto2.png
+    - lib/assets/images/ghea.jpg
+    - lib/assets/images/nay.jpg
+    - lib/assets/images/Geunah.jpg
+    - lib/assets/images/jokowi.jpg
+    - lib/assets/images/spinjam.png
+    - lib/assets/images/paylater.jpg
+    - lib/assets/images/user1.jpg
+    - lib/assets/images/user2.png
+    - lib/assets/images/user3.png
+    - lib/assets/images/user4.png
+    - lib/assets/images/user5.png
+    - lib/assets/images/feed_image1.jpg
+    - lib/assets/images/feed_image2.jpg
+    - lib/assets/images/kakgem.jpg
+    - lib/assets/images/iki.png

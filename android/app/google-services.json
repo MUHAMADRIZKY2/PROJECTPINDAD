@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1084346348105",
+    "project_id": "frontend-bbe5c",
+    "storage_bucket": "frontend-bbe5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084346348105:android:5a00cb7874231691ce4598",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaBOqtmcIDH2Oc6rnYgwGS52hMxzl5TsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // Pastikan ini atau versi yang lebih tinggi
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // Jika menggunakan Kotlin
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Mengatur direktori build root
+rootProject.buildDir = "../build"
+
+// Mengatur direktori build untuk subproject
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+// Pastikan project app dievaluasi terlebih dahulu
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+// Task untuk membersihkan build directory
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
